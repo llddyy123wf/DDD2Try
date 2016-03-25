@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>地图世界 - @ViewBag.Title </title>
+    @System.Web.Optimization.Styles.Render("~/content/css")
+    @System.Web.Optimization.Scripts.Render("~/content/jquery")
+    @System.Web.Optimization.Scripts.Render("~/content/map")
+    <script src="http://api.map.baidu.com/api?v=2.0&ak=HcKzARLZfUttxOtxVlrLHsOh" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#map").height($(window).height()-50);
+        });
+    </script>
+</head>
+<body>
+    <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button data-target=".bs-navbar-collapse" data-toggle="collapse" type="button" class="navbar-toggle collapsed">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Map World</a>
+            </div>
+            <div role="navigation" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav" role="tablist">
+                    <li class="home">
+                        <a href="/home/index">首页</a>
+                    </li>
+                    <li class="map">
+                        <a href="/map/index">我的地图</a>
+                    </li>
+                    <li class="friend">
+                        <a href="/friend/index">我的好友</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                        <a href="#">
+                            <span class="glyphicon glyphicon-user"></span> Jimmy
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="glyphicon glyphicon-off"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <article>
+        <div id="map">
+        </div>
+        @RenderBody()
+    </article>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<script type="text/javascript">
+    $(document).ready(function () {
+        var map = new bMap("map");
+        map.bind("dragend", function (params) {
+            photoMap.set_map(this, params);
+        });
+        map.bind("zoomend", function (params) {
+            photoMap.set_map(this, params);
+        });
+
+        var mParams = map.get_params();
+        photoMap.set_map(map, mParams);
+    });
+
+    var photoMap = {
+        set_map: function (map, params) {
+
+            var url = "/Map/MapPhoto";
+            var data = params;
+            $.getJSON(url, data, function (result) {
+                map.set_data(result);
+            });
+        }
+    }
+</script>

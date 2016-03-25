@@ -1,0 +1,9 @@
+﻿
+#map {width:100%; height:1000px;margin-top:50px;}
+footer {background-color:#000;color:#fff}
+
+.map-toolbar {position:absolute;top:60px; right:20px;width:200px;}
+.map-toolbar ul {margin:4px;}
+.map-editbar {position:absolute;top:112px; right:20px;width:300px; padding:10px;}
+
+#tip {display:none; position:absolute;top:40px;width:500px;margin:0 auto;}

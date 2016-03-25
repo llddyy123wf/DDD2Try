@@ -1,0 +1,108 @@
+﻿<div class="navbar navbar-default map-toolbar">
+    <ul class="nav nav-pills">
+        <li class="add">
+            <a href="#">
+                <span class="glyphicon glyphicon-map-marker"></span>
+            </a>
+        </li>
+        <li class="edit">
+            <a href="#">
+                <span class="glyphicon glyphicon-picture"></span>
+            </a>
+        </li>
+        <li class="view">
+            <a href="#">
+                <span class="glyphicon glyphicon-globe"></span>
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="navbar navbar-default map-editbar">
+    <form>
+        <div class="form-group">
+            <label for="txtPhotoTile">图片标题</label>
+            <input type="text" class="form-control" id="txtPhotoTile" placeholder="photo title">
+        </div>
+        <div class="form-group">
+            <label for="txtPhotoUrl">图片地址</label>
+            <input type="text" class="form-control" id="txtPhotoUrl" placeholder="photo url">
+        </div>
+        <div class="form-group">
+            <label for="txtPhotoDescription">图片描述</label>
+            <input type="text" class="form-control" id="txtPhotoDescription" placeholder="photo description">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var map = new bMap("map");
+        map.bind("dragend", function (params) {
+            photoMap.set_map(this, params);
+        });
+        map.bind("zoomend", function (params) {
+            photoMap.set_map(this, params);
+        });
+        map.bind("click", function (lnt, lat) {
+            if (photoMap.editMode === "add") {
+                this.addEditMarker(lnt, lat);
+                photoMap.editPoint.lat = lat;
+                photoMap.editPoint.lnt = lnt;
+            }
+        });
+
+        //初始化地图
+        var mParams = map.get_params();
+        photoMap.set_map(map, mParams);
+
+        //添加绑定
+        $("div.map-toolbar ul li.add a").on("click", function () {
+            photoMap.editMode = "add";
+            $(this).parent("li").siblings().removeClass("active").end().addClass("active");
+            map.set_cursor("edit");
+        });
+        //编辑绑定
+        $("div.map-toolbar ul li.edit a").on("click", function () {
+            photoMap.editMode = "edit";
+            $(this).parent("li").siblings().removeClass("active").end().addClass("active");
+            map.set_cursor("default");
+        });
+        //预览绑定
+        $("div.map-toolbar ul li.view a").on("click", function () {
+            photoMap.editMode = "view";
+            $(this).parent("li").siblings().removeClass("active").end().addClass("active");
+            map.set_cursor("default");
+        });
+
+        // 提交保定
+        $("form").on("submit", function () {
+            photoMap.save();
+            return false;
+        });
+    });
+
+    var photoMap = {
+        editMode: "view",
+        editPoint: { lnt: 0.0, lat: 0.0 },
+        set_map: function (map, params) {
+            var url = "/Map/MapPhoto";
+            var data = params;
+            $.getJSON(url, data, function (result) {
+                map.set_data(result);
+            });    
+        },
+        save: function () {
+            var url = "/Map/Save";
+            var data = {
+                Title: $("#txtPhotoTile").val(),
+                Url: $("#txtPhotoUrl").val(),
+                Description: $("#txtPhotoDescription").val(),
+                Longitude: this.editPoint.lnt,
+                Latitude: this.editPoint.lat
+            };
+            $.getJSON(url, data, function (result) {
+                alert("保存成功");
+            });
+        }
+    }
+</script>
