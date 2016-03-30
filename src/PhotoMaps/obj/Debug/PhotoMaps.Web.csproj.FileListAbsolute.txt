@@ -41,4 +41,3 @@ C:\Users\LDY20151214\Source\Repos\OnMap\src\PhotoMaps\bin\Framework.Library.pdb
 C:\Users\LDY20151214\Source\Repos\OnMap\src\PhotoMaps\obj\Debug\PhotoMaps.Web.dll
 C:\Users\LDY20151214\Source\Repos\OnMap\src\PhotoMaps\obj\Debug\PhotoMaps.Web.pdb
 E:\OpenSourceProjects\RepositoryPro\DDD2Try\src\PhotoMaps\obj\Debug\PhotoMaps.Web.csprojResolveAssemblyReference.cache
-E:\OpenSourceProjects\RepositoryPro\DDD2Try\src\PhotoMaps\obj\Debug\PhotoMaps.Web.dll

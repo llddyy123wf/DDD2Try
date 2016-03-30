@@ -4,6 +4,8 @@ using Framework.Infrastructure;
 using PhotoMaps.ViewModel;
 using System.Collections.Generic;
 using System.Web.Mvc;
+using Framework.Infrastructure.Message;
+using Framework.Infrastructure.Result;
 
 namespace PhotoMaps.Web.Controllers
 {

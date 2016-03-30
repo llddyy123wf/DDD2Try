@@ -5,6 +5,5 @@ C:\Users\LDY20151214\Source\Repos\OnMap\src\Common.Library\obj\Debug\Framework.L
 C:\Users\LDY20151214\Source\Repos\OnMap\src\Common.Library\obj\Debug\Framework.Library.pdb
 E:\OpenSourceProjects\RepositoryPro\DDD2Try\src\Common.Library\bin\Debug\Framework.Library.dll
 E:\OpenSourceProjects\RepositoryPro\DDD2Try\src\Common.Library\bin\Debug\Framework.Library.pdb
-E:\OpenSourceProjects\RepositoryPro\DDD2Try\src\Common.Library\obj\Debug\Framework.Library.csprojResolveAssemblyReference.cache
 E:\OpenSourceProjects\RepositoryPro\DDD2Try\src\Common.Library\obj\Debug\Framework.Library.dll
 E:\OpenSourceProjects\RepositoryPro\DDD2Try\src\Common.Library\obj\Debug\Framework.Library.pdb

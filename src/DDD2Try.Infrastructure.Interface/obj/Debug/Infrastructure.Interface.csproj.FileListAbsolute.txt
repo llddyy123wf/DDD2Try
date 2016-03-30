@@ -1,0 +1,7 @@
+E:\OpenSourceProjects\RepositoryPro\DDD2Try\src\Infrastructure.Interface\bin\Debug\Infrastructure.Interface.dll
+E:\OpenSourceProjects\RepositoryPro\DDD2Try\src\Infrastructure.Interface\bin\Debug\Infrastructure.Interface.pdb
+E:\OpenSourceProjects\RepositoryPro\DDD2Try\src\Infrastructure.Interface\bin\Debug\EntityFramework.dll
+E:\OpenSourceProjects\RepositoryPro\DDD2Try\src\Infrastructure.Interface\bin\Debug\EntityFramework.xml
+E:\OpenSourceProjects\RepositoryPro\DDD2Try\src\Infrastructure.Interface\obj\Debug\Infrastructure.Interface.csprojResolveAssemblyReference.cache
+E:\OpenSourceProjects\RepositoryPro\DDD2Try\src\Infrastructure.Interface\obj\Debug\Infrastructure.Interface.dll
+E:\OpenSourceProjects\RepositoryPro\DDD2Try\src\Infrastructure.Interface\obj\Debug\Infrastructure.Interface.pdb

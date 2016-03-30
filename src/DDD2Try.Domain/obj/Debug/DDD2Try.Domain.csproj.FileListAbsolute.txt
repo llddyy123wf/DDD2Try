@@ -1,0 +1,2 @@
+E:\OpenSourceProjects\RepositoryPro\DDD2Try\src\PhotoMaps.Model\obj\Debug\DDD2Try.Domain.csprojResolveAssemblyReference.cache
+E:\OpenSourceProjects\RepositoryPro\DDD2Try\src\DDD2Try.Domain\obj\Debug\DDD2Try.Domain.csprojResolveAssemblyReference.cache

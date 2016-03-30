@@ -1,7 +1,6 @@
 ﻿using Framework.Infrastructure.Repository;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PhotoMaps.Domain;
-using PhotoMaps.Domain.Repository;
 using PhotoMaps.EntityFramework;
 using System;
 using System.Collections.Generic;

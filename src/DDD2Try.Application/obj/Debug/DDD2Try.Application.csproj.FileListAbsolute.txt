@@ -1,0 +1,1 @@
+E:\OpenSourceProjects\RepositoryPro\DDD2Try\src\DDD2Try.Application\obj\Debug\DDD2Try.Application.csprojResolveAssemblyReference.cache

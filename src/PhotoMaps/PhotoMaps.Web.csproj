@@ -146,21 +146,21 @@
     <Content Include="Views\Account\LogOn.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PhotoMaps.Application\PhotoMaps.Application.csproj">
+    <ProjectReference Include="..\DDD2Try.Application\DDD2Try.Application.csproj">
       <Project>{7e02445d-4aa7-4b9b-91ba-7df493e2edb4}</Project>
-      <Name>PhotoMaps.Application</Name>
+      <Name>DDD2Try.Application</Name>
     </ProjectReference>
     <ProjectReference Include="..\PhotoMaps.DTO\PhotoMaps.ViewModel.csproj">
       <Project>{16ad60af-5cb2-40e0-bc89-a243a9df112f}</Project>
       <Name>PhotoMaps.ViewModel</Name>
     </ProjectReference>
-    <ProjectReference Include="..\PhotoMaps.Infrastructure\Framework.Infrastructure.csproj">
+    <ProjectReference Include="..\Framework.Infrastructure\Framework.Infrastructure.csproj">
       <Project>{f358a3b9-e626-4c2a-83d2-559cbb63a983}</Project>
       <Name>Framework.Infrastructure</Name>
     </ProjectReference>
-    <ProjectReference Include="..\PhotoMaps.Model\PhotoMaps.Domain.csproj">
+    <ProjectReference Include="..\DDD2Try.Domain\DDD2Try.Domain.csproj">
       <Project>{255A1F66-40A5-43E9-84DA-FFEBCD39A3C2}</Project>
-      <Name>PhotoMaps.Domain</Name>
+      <Name>DDD2Try.Domain</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

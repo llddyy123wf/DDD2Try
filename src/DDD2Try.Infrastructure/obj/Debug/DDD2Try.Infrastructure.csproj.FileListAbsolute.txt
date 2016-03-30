@@ -1,0 +1,2 @@
+E:\OpenSourceProjects\RepositoryPro\DDD2Try\src\Infrastructure\obj\Debug\DDD2Try.Infrastructure.csprojResolveAssemblyReference.cache
+E:\OpenSourceProjects\RepositoryPro\DDD2Try\src\DDD2Try.Infrastructure\obj\Debug\DDD2Try.Infrastructure.csprojResolveAssemblyReference.cache

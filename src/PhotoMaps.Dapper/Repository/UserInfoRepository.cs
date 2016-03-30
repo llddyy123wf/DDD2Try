@@ -1,13 +1,13 @@
 ﻿using Dapper;
 using DapperExtensions;
 using PhotoMaps.Domain;
-using PhotoMaps.Domain.Repository;
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Linq.Expressions;
+using PhotoMaps.Domain.IRepository;
 
 namespace PhotoMaps.Dapper
 {

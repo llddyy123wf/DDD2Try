@@ -1,0 +1,4 @@
+E:\OpenSourceProjects\RepositoryPro\DDD2Try\src\DDD2Try.Domain.Common\bin\Debug\DDD2Try.Domain.Common.dll
+E:\OpenSourceProjects\RepositoryPro\DDD2Try\src\DDD2Try.Domain.Common\bin\Debug\DDD2Try.Domain.Common.pdb
+E:\OpenSourceProjects\RepositoryPro\DDD2Try\src\DDD2Try.Domain.Common\obj\Debug\DDD2Try.Domain.Common.dll
+E:\OpenSourceProjects\RepositoryPro\DDD2Try\src\DDD2Try.Domain.Common\obj\Debug\DDD2Try.Domain.Common.pdb

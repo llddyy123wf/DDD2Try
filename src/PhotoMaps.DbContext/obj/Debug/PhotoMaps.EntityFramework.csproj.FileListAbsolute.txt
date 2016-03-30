@@ -1,3 +1,0 @@
-E:\OpenSourceProjects\RepositoryPro\DDD2Try\src\PhotoMaps.DbContext\obj\Debug\PhotoMaps.EntityFramework.csprojResolveAssemblyReference.cache
-E:\OpenSourceProjects\RepositoryPro\DDD2Try\src\PhotoMaps.DbContext\obj\Debug\PhotoMaps.Infrastructure.EntityFramework.dll
-E:\OpenSourceProjects\RepositoryPro\DDD2Try\src\PhotoMaps.DbContext\obj\Debug\PhotoMaps.Infrastructure.EntityFramework.pdb

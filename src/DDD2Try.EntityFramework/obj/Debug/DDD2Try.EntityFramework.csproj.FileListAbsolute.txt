@@ -1,0 +1,1 @@
+E:\OpenSourceProjects\RepositoryPro\DDD2Try\src\DDD2Try.EntityFramework\obj\Debug\DDD2Try.EntityFramework.csprojResolveAssemblyReference.cache

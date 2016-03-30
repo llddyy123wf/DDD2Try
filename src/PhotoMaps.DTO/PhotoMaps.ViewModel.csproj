@@ -51,13 +51,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PhotoMaps.Infrastructure\Framework.Infrastructure.csproj">
+    <ProjectReference Include="..\Framework.Infrastructure\Framework.Infrastructure.csproj">
       <Project>{f358a3b9-e626-4c2a-83d2-559cbb63a983}</Project>
       <Name>Framework.Infrastructure</Name>
     </ProjectReference>
-    <ProjectReference Include="..\PhotoMaps.Model\PhotoMaps.Domain.csproj">
+    <ProjectReference Include="..\DDD2Try.Domain\DDD2Try.Domain.csproj">
       <Project>{255a1f66-40a5-43e9-84da-ffebcd39a3c2}</Project>
-      <Name>PhotoMaps.Domain</Name>
+      <Name>DDD2Try.Domain</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
